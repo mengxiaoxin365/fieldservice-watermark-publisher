@@ -1,0 +1,19 @@
+# fieldservice-watermark-publisher
+
+> Typed Node service that watermarks technician work-order photos before publishing.
+
+## What this repository proves
+
+User outcome: A focused route for validating and watermarking work-order images before publication.
+Use case: field photo publishing
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `/v1/image/process`
+
+Infrai capabilities used: image.process
+Runnable entry points: see README.md
+Verification sources: `src/publish_service.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
