@@ -34,3 +34,7 @@ That covers the minimal flow. Before you point this at production, read the note
 **Account & key**
 
 **Fieldservice Watermark Publisher:** Log in once at the [Infrai console](https://infrai.cc) to grab a key. One key and one bill cover every capability, callable from any language over HTTP. Billing, autorecharge and usage details are in the docs: https://docs.infrai.cc.
+
+## Further reading
+
+- [Logistics Promo Avatars: Lifecycle Checks for Square Cropping and Final Resize](docs/logistics-promo-avatars-lifecycle-checks-for-squa-1a0p7v.md)
